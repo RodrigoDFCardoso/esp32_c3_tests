@@ -1,0 +1,4 @@
+-march=rv32imc_zicsr_zifencei
+-mtune=esp-base
+"-specs=C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/specs/picolibc.specs"
+-fno-rtti

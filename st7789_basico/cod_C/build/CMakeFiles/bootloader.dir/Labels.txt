@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/CMakeFiles/bootloader
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/CMakeFiles/bootloader.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/CMakeFiles/bootloader-complete.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/Rodrigo/Documents/git/esp32_c3_tests/st7789_basico/cod_C/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

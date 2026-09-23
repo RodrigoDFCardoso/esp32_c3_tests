@@ -2,23 +2,28 @@
 | -------- | ----------- |
 | VCC      | 3V3         |
 | GND      | GND         |
-| SCL/SCK  | GPIO8       |
-| SDA/MOSI | GPIO10      |
-| RES      | GPIO4       |
-| DC       | GPIO3       |
-| CS       | GPIO        |
+| SCL/SCK  | GPIO4       |
+| SDA/MOSI | GPIO6       |
+| RES      | GPIO21      |
+| DC       | GPIO9       |
+| CS       | GPIO8       |
 | BLK      | 3V3 	 |
 
 
-st7789_test/
+st7789_test/cod_C/
+
+│   CMakeLists.txt
+│   sdkconfig
+│   sdkconfig.old
 │
-├── CMakeLists.txt
-├── sdkconfig
-└── main/
-    ├── CMakeLists.txt
-    ├── main.c
-    ├── st7789.c
-    └── st7789.h
+└───main
+        CMakeLists.txt
+        main.c
+        st7789.c
+        st7789.h
+        st7789_bus.c
+        st7789_bus.h
+
 
 
 main.c
@@ -28,10 +33,10 @@ main.c
 st7789.c
    │
    ├── GPIO
-   │    ├── CS
-   │    ├── DC
-   │    └── RES
+   │    ├── CS → GPIO8
+   │    ├── DC → GPIO9
+   │    └── RES → GPIO21
    │
    └── SPI
-        ├── SCK → GPIO7
+        ├── SCK → GPIO4
         └── MOSI → GPIO6
