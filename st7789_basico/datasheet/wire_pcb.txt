@@ -1,0 +1,37 @@
+| ST7789   | ESP32-C3    |
+| -------- | ----------- |
+| VCC      | 3V3         |
+| GND      | GND         |
+| SCL/SCK  | GPIO8       |
+| SDA/MOSI | GPIO10      |
+| RES      | GPIO4       |
+| DC       | GPIO3       |
+| CS       | GPIO        |
+| BLK      | 3V3 	 |
+
+
+st7789_test/
+│
+├── CMakeLists.txt
+├── sdkconfig
+└── main/
+    ├── CMakeLists.txt
+    ├── main.c
+    ├── st7789.c
+    └── st7789.h
+
+
+main.c
+   │
+   │ st7789_init()
+   ▼
+st7789.c
+   │
+   ├── GPIO
+   │    ├── CS
+   │    ├── DC
+   │    └── RES
+   │
+   └── SPI
+        ├── SCK → GPIO7
+        └── MOSI → GPIO6
