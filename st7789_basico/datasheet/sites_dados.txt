@@ -1,0 +1,10 @@
+https://mischianti.org/esp32-c3-super-mini-high-resolution-pinout-datasheet-and-specs/
+
+https://forum.arduino.cc/t/esp32-c3-supermini-pinout/1189850
+
+https://gitlab.unicamp.br/fabiano/bitdoglab-v7
+
+https://forum.arduino.cc/t/how-to-connect-st7789-display-to-esp32-c3-supermini/1298551/8
+
+
+
